@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav-bar {
     background-color: #33a137;
     color: white;
@@ -31,8 +35,6 @@
     color: white;
     font-size: small
 }
-
-.form-control {}
 
 .btn {
     background-color: white;
@@ -125,13 +127,12 @@
     font-weight: bold;
     letter-spacing: 2px;
     border-color: #33a137;
+    margin-bottom: 20px;
 }
 
 .second-nav {
     margin-top: 25px;
     display: relative;
-    margin-left: 10px;
-    padding-left: 20px;
 }
 
 .panel {
@@ -143,13 +144,13 @@
 }
 
 .second li {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header-main {
     margin-top: 2rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -157,10 +158,89 @@
 p {
     margin-top: 0px;
     padding-top: 0%;
-    margin-left: 2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .bell {
     color: #33a137;
+    margin-left: 10%;
+    /* margin-right: 10%; */
+}
+
+.para {
+    line-height: 10px;
+    text-align: center
+}
+
+.sub-topic {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification-section {
+    /* margin-top: 10vh; */
+    padding-top: 5%;
+    padding-bottom: 3%;
+    width: auto;
+    background-color: #f0f0f0
+}
+
+.btn-want {
+    background-color: #33a137;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-later {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #33a137;
+}
+
+.box {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.panel-body {
+    margin-top: 20px;
+}
+
+.panel-body h1 {
+    font-size: 25px;
+    /* padding-left: 40px; */
+    text-align: center;
+}
+
+.overview-nav {
+    margin-top: 0px;
+    padding-top: 0px;
+    width: auto;
+}
+
+table {
+    font-size: small;
+    color: rgb(94, 93, 93);
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+table td {
+    margin-right: 20px;
+    margin-right: 20px;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.description {
+    font-size: small;
+    color: rgb(94, 93, 93);
+    margin-left: 20px;
+    line-height: 20px;
 }
